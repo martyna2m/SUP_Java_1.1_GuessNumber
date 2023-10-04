@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2b2d0ee-18e9-40f0-aca3-919bc72686c0" name="Changes" comment="Create new NumberGame Class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberGame.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2b2d0ee-18e9-40f0-aca3-919bc72686c0" name="Changes" comment="Invoke the Game in the main Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696412224089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create the code for the game">
+      <option name="closed" value="true" />
+      <created>1696441938029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696441938029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Invoke the Game in the main Class">
+      <option name="closed" value="true" />
+      <created>1696441980460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696441980460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +146,8 @@
     <MESSAGE value="Expand gitignore file" />
     <MESSAGE value="Clear Main Class" />
     <MESSAGE value="Create new NumberGame Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new NumberGame Class" />
+    <MESSAGE value="Create the code for the game" />
+    <MESSAGE value="Invoke the Game in the main Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invoke the Game in the main Class" />
   </component>
 </project>

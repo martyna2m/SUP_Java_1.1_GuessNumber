@@ -9,7 +9,7 @@ public class NumberGame {
     public void guessTheNumberGame() throws InputMismatchException {
         int numberOfAttempts = 5;
         int numberToGuess = new Random().nextInt(100);
-        System.out.println("Hello! Guess the number between 0 and 99. You have 5 attempts. Good luck!" + numberToGuess);
+        System.out.println("Hello! Guess the number between 0 and 99. You have 5 attempts. Good luck!");
 
         for (int i = 0; i < numberOfAttempts; i++) {
 
@@ -20,7 +20,7 @@ public class NumberGame {
                 break;
 
             } else if (i == 4) {
-                System.out.println("Sorry you didn't guess the number, the answer was: " + numberToGuess);
+                System.out.println("Sorry, you didn't guess the number, the answer was: " + numberToGuess);
 
             } else if (playersGuess < numberToGuess) {
                 System.out.println("Your number is LOWER than the one you are trying to guess. Please try again, you have " + (4 - i) + " attempts left");
