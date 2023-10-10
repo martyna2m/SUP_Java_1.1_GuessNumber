@@ -18,22 +18,26 @@ public class NumberGame {
             if (numberToGuess == playersGuess) {
                 System.out.println("You guessed it!");
                 break;
-
-            } else if (i == 4) {
+            }
+            if (i == 4) {
                 System.out.println("Sorry, you didn't guess the number, the answer was: " + numberToGuess);
-
-            } else if (playersGuess < numberToGuess) {
-                System.out.println("Your number is LOWER than the one you are trying to guess. Please try again, you have " + (4 - i) + " attempts left");
-
-            } else {
-                System.out.println("Your number is HIGHER than the one you are trying to guess. Please try again, you have " + (4 - i) + " attempts left");
+                break;
 
             }
 
+            printHint(playersGuess < numberToGuess ? "LOWER" : "HIGHER");
+            System.out.println("Please try again, you have " + (4 - i) + " attempts left");
 
         }
     }
+
+
+    private void printHint(String hint) {
+        System.out.println("Your number is " + hint + " than the one you are trying to guess.");
+
+    }
 }
+
 
 
 
